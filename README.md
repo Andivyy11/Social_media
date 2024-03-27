@@ -7,27 +7,33 @@
 <li>Wide range of features including user feeds, profile pages, messaging, and real-time online status tracking./</li>
 </ul>
 
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/homePage.png" alt="homepage" width="100%" />
 <h2>Features</h2>
 <h3>User Feeds</h3>
 The home page provides users with a personalized feed, displaying relevant posts and updates from their network.
 
 <h3>Profile Pages</h3>
 Each user has a dedicated profile page showcasing their cover picture, profile picture, all posts made by the user, and additional information.
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/profilePage.png" alt="profilepage" width="80%" />
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/profile2.png" alt="profilepage" width="70%" />
 
 <h3>Authentication</h3>
 Secure login and registration pages enable users to create accounts and access the platform's features effortlessly.
 
 <h3>Messenger</h3>
 Anidsocial includes a robust messaging system with a chat section powered by Socket.IO, allowing real-time communication between users.
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/chat.png" alt="chatPage" width="60%" />
 
 <h3>Online Status</h3>
 The online section conveniently displays users who are currently active on the platform, fostering real-time engagement.
 
 <h3>Create new Post</h3>
 Create a new post includint text and pictures.
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/share.png" alt="post" width="60%" />
 
 <h3>Like a Post</h3>
 Like or unlike a post.
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/post.png" alt="post" width="60%" />
 
 <h3>Follow/Unfollow</h3>
 Follow or Unfollow any user.
