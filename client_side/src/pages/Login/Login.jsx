@@ -2,6 +2,7 @@ import './login.css'
 import React from 'react'
 import {loginCall} from '../../apiCalls'
 import { Authcontext } from '../../context/AuthContext';
+import { Link} from 'react-router-dom'
 
 export default function Login()
 {
@@ -21,7 +22,9 @@ export default function Login()
             <input placeholder='Password' type="password" required minLength="6" ref={password}></input>
             <button className='logInButton' disabled={isFetching}>{ isFetching ? "Loading..." : "Log In"}</button>
             <span className='forgotText'>Forgot Password ?</span>
+            <Link to='/register' style={{textDecoration:"none",width:"100%",textAlign:"center"}}>
             <button className='newAccountButton'>Create New Account</button>
+            </Link>
         </form>
     </div>
     )
