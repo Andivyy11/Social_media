@@ -1,0 +1,91 @@
+.rightbarContainer{
+    flex:3.5;
+    padding:15px;
+    overflow-y: scroll;
+}
+.rightbarWrapper{
+    width:100%;
+}
+.birthdays{
+    width:100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffa9;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+.birthdays img{
+    width:70px;
+    height:70px;
+    margin:15px;
+}
+.birthdays span{
+    font-weight: 600;
+}
+.advertise img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    border-radius: 12px;
+    opacity: 0.7;
+}
+.userFriends{
+   display:flex;
+   flex-wrap: wrap;
+   width:100%;
+}
+.userFriends div{
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userFriends img{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userFriends span{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top:15px;
+}
+.noFollowing{
+    font-size: 18px;
+    font-weight: 600;
+    margin:60px auto;
+    color:rgb(63, 63, 63);
+    align-self: center;
+}
+.greet{
+    margin-bottom: 20px;
+    color:dodgerblue;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.userBio{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.userBio li{
+    margin: 10px auto;
+    font-size: 18px;
+}
+.notUpdated{
+    color:grey;
+    font-style: italic;
+    font-size: 17px;
+}
+#followbtn{
+    display:flex;
+    align-items: center;
+    align-self: flex-start;
+    padding:10px 15px;
+    background-color: green;
+    font-size: 20px;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}

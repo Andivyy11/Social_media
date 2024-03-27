@@ -1,0 +1,39 @@
+.message{
+    margin:20px;
+    display: flex;
+}
+.message.right{
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+.message img{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.messageBody{
+    position:relative;
+    max-width: 260px;
+    min-width: 100px;
+}
+.messageBody.left{
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 0 25px 25px 25px;
+    padding: 10px 20px 10px 10px;
+}
+.messageBody.right{
+    background-color: rgb(216, 216, 216);
+    border-radius: 25px 0 25px 25px;
+    padding: 10px 10px 10px 20px;
+}
+.messageBody p{
+    margin-bottom: 8px;
+}
+.messageBody span{
+    position: absolute;
+    font-size: 12px;
+    bottom:5%;
+    right:10%;
+}

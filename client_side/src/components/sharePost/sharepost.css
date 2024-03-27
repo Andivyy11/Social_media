@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+}
+.sharepostContainer{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(70, 70, 70, 0.75);
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+    height:80px;
+}
+.shareTop img{
+    width:50px;
+    height:50px;
+    margin: 0 18px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.shareTop input{
+    font-size: 18px;
+    width: 80%;
+    border: none;
+}
+.shareTop input:focus{
+    outline: none;
+}
+.sharepostContainer hr{
+   margin-bottom:20px 0;
+}
+.shareBottom{
+    padding:15px;
+}
+.shareIcons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top:10px; 
+    height: 50px;
+}
+.shareIcons:hover{
+    border-bottom:3px solid dodgerblue;
+}
+.shareOptions{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shareIcons span{
+    margin:0 20px 0 6px;
+    font-size: 14px;
+}
+.shareBottom button{
+    padding:10px 18px;
+    margin-top:10px;
+    margin-right:0;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+.shareBottom button:active{
+    background-color: green;
+}
+#file{
+   display: none;
+}
+.shareImgContainer{
+    position: relative;
+}
+.shareImgContainer img{
+    width:100%;
+    object-fit: contain;
+}
+.cancelbtn{
+    position: absolute;
+    top:0;
+    right:0;
+}
+

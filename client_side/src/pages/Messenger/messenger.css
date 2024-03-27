@@ -1,0 +1,83 @@
+
+*{
+   box-sizing: border-box;
+   padding:0;
+   margin: 0;
+}
+.container{
+    display: flex;
+    width:100vw;
+    height:calc(100vh - 60px);
+}
+.friendSection{
+    flex:3;
+    overflow-y: scroll;
+}
+.chatSection{
+    flex:5;
+}
+.mssgBox{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.chatLog{
+    display:flex;
+    flex-direction: column;
+    height: calc( 100% - 90px);
+    overflow-y: scroll;
+} 
+.onlineSection{
+    flex: 4;
+    overflow-y: scroll;
+}
+
+.onlineSection h1{
+    color:dodgerblue;
+    margin:20px;
+}
+.friendSection input{
+    padding:12px;
+    font-size: 20px;
+    background-color: white;
+    margin:20px 5px;
+    border-radius: 20px;
+    width:90%;
+    border:2px solid dodgerblue;
+}
+.friendSection input:focus{
+    outline: none;
+    border:3px solid dodgerblue;
+}
+
+.typeBox{
+    width:100%;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+    background-color: dodgerblue;
+}
+.typeBox textarea{
+    width:80%;
+    font-size: 18px;
+    padding:6px 10px;
+    border-radius: 25px;
+    resize: none;
+}
+.typeBox textarea:focus{
+    outline: none;
+}
+.typeBox button{
+    padding:5px;
+    border-radius: 50%;
+    border:none;
+    fill:dodgerblue;
+    font: 35px;
+}
+.greyText{
+    margin-top:30px;
+    color:rgb(168, 168, 168);
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.feedContainer{
+    flex:5.5;
+    padding:15px;
+    overflow-y: scroll;
+}
+.noPostText{
+    font-size: 25px;
+    color:grey;
+    text-align: center;
+    margin-top:50px;
+}

@@ -1,0 +1,19 @@
+
+.chatFriends img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right:15px;
+    object-fit: cover;
+}
+.chatFriends{
+    padding: 14px 10px;
+    display: flex;
+    align-items: center;
+}
+.chatFriends:hover{
+    background-color: rgb(230, 230, 230);
+}
+.chatFriends span{
+    text-transform: capitalize;
+}
