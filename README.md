@@ -14,11 +14,13 @@ The home page provides users with a personalized feed, displaying relevant posts
 
 <h3>Profile Pages</h3>
 Each user has a dedicated profile page showcasing their cover picture, profile picture, all posts made by the user, and additional information.
-<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/profilePage.png" alt="profilepage" width="80%" />
-<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/profile2.png" alt="profilepage" width="70%" />
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/profilePage.png" alt="profilepage" width="60%" />
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/profile2.png" alt="profilepage" width="60%" />
 
 <h3>Authentication</h3>
 Secure login and registration pages enable users to create accounts and access the platform's features effortlessly.
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/login.png" alt="loginPage" width="30%" />
+<img src="https://raw.githubusercontent.com/Andivyy11/Social_media/main/.github/images/register.png" alt="registerPage" width="30%" />
 
 <h3>Messenger</h3>
 Anidsocial includes a robust messaging system with a chat section powered by Socket.IO, allowing real-time communication between users.
