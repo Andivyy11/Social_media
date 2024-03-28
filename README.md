@@ -56,6 +56,7 @@ To run Anidsocial locally, follow these steps:
 <li>Install dependencies: npm install</li>
 <li>Start the development server: npm start</li>
 <li>Visit http://localhost:3000 in your browser to access Anidsocial.</li>
+</ul>
 
 <h2>Contributing</h2>
 Contributions to Anidsocial are welcome! If you have any ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request.
